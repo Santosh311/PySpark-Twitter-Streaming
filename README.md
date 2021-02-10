@@ -3,6 +3,7 @@ Description - Streaming live tweets from Twitter using PySpark, Applying Map-Red
 ## Requirements Setup
 1. Oracle Virtual Box - loaded with Ubuntu 18.04
 2. Python 3.6 & Apache Spark v3.0.1 Hadoop 2.7
+3. A Twitter Developer account
 ### Libraries Used
 1. PySpark - To implement Spark Functionalities
 2. FindSpark - To configure PySpark path with the working file (provided in code)
@@ -10,4 +11,4 @@ Description - Streaming live tweets from Twitter using PySpark, Applying Map-Red
 4. JSON, CSV - Storage and retrieval of tweets in these formats
 5. Pandas - Hashtags Dataframe output
 6. Matplotlib - Plotting the appropriate graphs
-
+7. TextBlob - For sentiment analysis
